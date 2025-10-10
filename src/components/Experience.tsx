@@ -22,12 +22,22 @@ export default function Experience() {
                     {experience.location && <p className="text-sm text-muted-foreground mt-1">{experience.location}</p>}
                   </div>
                   <div className="mt-2 md:mt-0">
-                    <span className="inline-block px-3 py-1 bg-primary text-primary-foreground rounded-full text-sm">{experience.duration}</span>
+                    {experience.jobType && <span className="inline-block px-3 py-1 bg-background border text-primary rounded-full text-sm">{experience.jobType}</span>}
+                    <span className="inline-block px-3 py-1 ml-2 bg-primary text-primary-foreground rounded-full text-sm">{experience.duration}</span>
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">{experience.description}</p>
+                {experience.description && <p className="text-muted-foreground mb-4">{experience.description}</p>}
+                {experience.bulletPoints && (
+                  <ul className="list-disc list-inside mb-4 space-y-2 ml-4">
+                    {experience.bulletPoints.map((point, idx) => (
+                      <li key={idx} className="text-muted-foreground">
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 <div className="flex flex-wrap gap-2">
                   {experience.tech.map((tech) => (
                     <span key={tech} className="px-2 py-1 bg-secondary text-secondary-foreground rounded-md text-sm">

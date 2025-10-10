@@ -121,10 +121,10 @@ export default function Projects() {
               {/* Scrollable Content */}
               <div className="overflow-y-auto max-h-[70vh] pr-2 space-y-6">
                 {/* Project Description */}
-                {selectedProj.detailedDescription && (
+                {selectedProj.description && (
                   <div>
                     <h3 className="text-lg font-semibold mb-2">About this Project</h3>
-                    <p className="text-muted-foreground leading-relaxed">{selectedProj.detailedDescription}</p>
+                    <p className="text-muted-foreground leading-relaxed">{selectedProj.description}</p>
                   </div>
                 )}
 
