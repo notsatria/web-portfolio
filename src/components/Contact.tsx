@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, MapPin, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function Contact() {
   const handleEmailClick = () => {
-    window.location.href = "mailto:your.email@example.com";
+    window.location.href = "mailto:motsatria.email@example.com";
   };
 
   return (
@@ -44,17 +44,21 @@ export default function Contact() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex flex-col space-y-2">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://github.com/notsatria" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
                   <Github size={16} />
-                  github.com/yourusername
+                  github.com/notsatria
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://linkedin.com/in/damarsatria" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
                   <Linkedin size={16} />
-                  linkedin.com/in/yourusername
+                  linkedin.com/in/damarsatria
                 </a>
-                <a href="mailto:your.email@example.com" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                <a href="https://youtube.com/@notsatriadev" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
+                  <Youtube size={16} />
+                  youtube.com/@notsatriadev
+                </a>
+                <a href="mailto:notsatria.dev@gmail.com" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors">
                   <Mail size={16} />
-                  your.email@example.com
+                  notsatria.dev@gmail.com
                 </a>
               </div>
             </CardContent>

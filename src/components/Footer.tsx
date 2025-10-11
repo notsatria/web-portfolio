@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -9,13 +9,16 @@ export default function Footer() {
           <p className="text-muted-foreground">© {new Date().getFullYear()} John Doe. All rights reserved.</p>
         </div>
         <div className="flex space-x-4">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
+          <a href="https://github.com/notsatria" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
             <Github size={20} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn">
+          <a href="https://linkedin.com/in/damarsatria" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn">
             <Linkedin size={20} />
           </a>
-          <a href="mailto:your.email@example.com" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Email">
+          <a href="https://youtube.com/@notsatriadev" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="YouTube">
+            <Youtube size={20} />
+          </a>
+          <a href="mailto:notsatria.dev@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Email">
             <Mail size={20} />
           </a>
         </div>

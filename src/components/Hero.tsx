@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function Hero() {
@@ -37,12 +37,17 @@ export default function Hero() {
               </a>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <a href="https://linkedin.com/in/damarsatria" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/damarsatria" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin size={20} />
               </a>
             </Button>
             <Button variant="outline" size="icon" asChild>
-              <a href="mailto:buanasatriaa@gmail.com" aria-label="Email">
+              <a href="https://youtube.com/@notsatriadev" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <Youtube size={20} />
+              </a>
+            </Button>
+            <Button variant="outline" size="icon" asChild>
+              <a href="mailto:notsatria.dev@gmail.com" aria-label="Email">
                 <Mail size={20} />
               </a>
             </Button>

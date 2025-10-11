@@ -11,7 +11,6 @@ export interface Project {
   challenges?: string;
   solution?: string;
   outcome?: string;
-  year?: string;
 }
 
 export const projects: Project[] = [
@@ -20,8 +19,6 @@ export const projects: Project[] = [
     title: "Nutapos",
     description: "Modern look Android Point-of-Sale (POS) application for mobile and tablet devices, developed using Kotlin and XML. Feature-rich with a focus on usability and performance.",
     tech: ["Android", "Kotlin", "XML", "MVVM", "Hilt", "Retrofit", "Room", "Datastore", "Material 3"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://yourportfolio.com",
     image: "/assets/projects/nutapos-1.png",
     features: [
       "User-friendly interface with intuitive navigation",
@@ -63,26 +60,6 @@ export const projects: Project[] = [
     showcaseImages: ["assets/projects/supachat-1.png"],
   },
   {
-    id: "sepathu",
-    title: "Sepathu - Shoe Store App",
-    description: "A modern e-commerce app for buying and selling shoes. Built with Jetpack Compose.",
-    tech: ["Jetpack Compose", "Room", "MVVM"],
-    github: "https://github.com/notsatria/sepathu-compose.git",
-    image: "assets/projects/sepathu-1.png",
-    features: ["Browse shoe catalog", "Add to cart and checkout"],
-    showcaseImages: ["assets/projects/sepathu-1.png"],
-  },
-  {
-    id: "muuvis",
-    title: "Muuvis - Movie App",
-    description: "A movie app that provides information about movies, including details, trailers, and reviews. Built with Jetpack Compose and TMDB API.",
-    tech: ["Android XML", "Retrofit", "Hilt", "Datastore", "Material 3"],
-    github: "https://github.com/notsatria/muuvis.git",
-    image: "assets/projects/muuvis-1.png",
-    features: ["Browse popular and top-rated movies", "Search for movies", "View movie details and trailers", "User reviews and ratings"],
-    showcaseImages: ["assets/projects/muuvis-1.png"],
-  },
-  {
     id: "kaloree",
     title: "Kaloree - Calorie Tracker App",
     description: "A calorie tracker app that helps users monitor their daily calorie intake and manage their diet effectively based on image classification. Built with Flutter and TensorFlow Lite.",
@@ -102,5 +79,25 @@ export const projects: Project[] = [
     demo: "https://youtu.be/-Sg0ZgUS3lA?si=99amMtvxj1aqmCiC",
     features: ["Start and stop AVDs", "Connect to AVD via ADB"],
     showcaseImages: ["assets/projects/avd-manager-1.png"],
+  },
+  {
+    id: "sepathu",
+    title: "Sepathu - Shoe Store App",
+    description: "A modern e-commerce app for buying and selling shoes. Built with Jetpack Compose.",
+    tech: ["Jetpack Compose", "Room", "MVVM"],
+    github: "https://github.com/notsatria/sepathu-compose.git",
+    image: "assets/projects/sepathu-1.png",
+    features: ["Browse shoe catalog", "Add to cart and checkout"],
+    showcaseImages: ["assets/projects/sepathu-1.png"],
+  },
+  {
+    id: "muuvis",
+    title: "Muuvis - Movie App",
+    description: "A movie app that provides information about movies, including details, trailers, and reviews. Built with Jetpack Compose and TMDB API.",
+    tech: ["Android XML", "Retrofit", "Hilt", "Datastore", "Material 3"],
+    github: "https://github.com/notsatria/muuvis.git",
+    image: "assets/projects/muuvis-1.png",
+    features: ["Browse popular and top-rated movies", "Search for movies", "View movie details and trailers", "User reviews and ratings"],
+    showcaseImages: ["assets/projects/muuvis-1.png"],
   },
 ];
