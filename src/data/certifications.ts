@@ -11,6 +11,14 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
+    id: "dev-cert",
+    name: "Dev Certification for Android",
+    issuer: "dev.cert",
+    date: "Jan 2025",
+    credentialId: "720814QV56",
+    url: "https://dev.id/certificate/verify/720814QV56",
+  },
+  {
     id: "bangkit-academy",
     name: "Bangkit Academy Graduate - Android Learning Path",
     issuer: "Bangkit Academy",

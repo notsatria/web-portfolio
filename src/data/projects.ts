@@ -30,6 +30,16 @@ export const projects: Project[] = [
     showcaseImages: ["/assets/projects/nutapos-1.png"],
   },
   {
+    id: "habit-flow",
+    title: "Habit Flow - Habit Tracker App",
+    description: "A modern habit tracker app designed to help users build and maintain good habits. Developed using Flutter.",
+    tech: ["Flutter", "Dart"],
+    image: "/assets/projects/habitflow-1.png",
+    features: ["Create, edit, and delete habits", "Set habit reminders and notifications", "Track habit streaks and progress", "View habit history and statistics"],
+    demo: "https://youtu.be/jPVH6YqXk0M",
+    showcaseImages: ["/assets/projects/habitflow-1.png"],
+  },
+  {
     id: "bajet",
     title: "Bajet - Cashflow Management App",
     description: "A modern Android app to help users manage their income, expenses, and monthly budget efficiently. Built using Jetpack Compose, Room, Kotlin Flow, and MVVM architecture.",
