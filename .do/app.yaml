@@ -1,0 +1,14 @@
+name: web-portfolio
+static_sites:
+  - name: portfolio
+    github:
+      repo: notsatria/web-portfolio
+      branch: main
+      deploy_on_push: true
+    build_command: npm run build
+    output_dir: dist
+    index_document: index.html
+    error_document: index.html
+    routes:
+      - path: /
+        catchall: true
