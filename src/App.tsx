@@ -1,24 +1,25 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Projects from "@/components/Projects";
-import Experience from "@/components/Experience";
-import Certifications from "@/components/Certifications";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import HomePage from "@/pages/HomePage";
+import GistsPage from "@/pages/GistsPage";
+import GistRedirect from "@/pages/GistRedirect";
 
 function App() {
   return (
-    <div className="min-h-screen bg-background">
-      <Navbar />
-      <main>
-        <Hero />
-        <Projects />
-        <Experience />
-        <Certifications />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/gists" element={<GistsPage />} />
+            <Route path="/:gistId" element={<GistRedirect />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

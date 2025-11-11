@@ -19,6 +19,10 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - 🚀 Fast development with Vite
 - 📝 TypeScript for type safety
 - 🌙 Professional black/white/gray theme
+- 🔗 GitHub Gists page with Linktree-style layout
+- 🔄 Automatic redirect routing for gist links
+- 📊 Project detail modals with image galleries
+- 📜 Certifications showcase with certificate viewer
 
 ## 🏗️ Project Structure
 
@@ -89,9 +93,19 @@ The project uses Tailwind CSS with a custom design system. Colors and spacing ar
 ## 🎯 Sections
 
 - **Hero**: Introduction and call-to-action
-- **Projects**: Showcase of featured projects with tech stack
+- **Projects**: Showcase of featured projects with tech stack and detail modals
 - **Experience**: Professional work history
+- **Certifications**: Professional certifications with certificate viewer
 - **Contact**: Contact information and social links
+- **Gists**: GitHub gists displayed in Linktree-style with auto-redirects
+
+## 📄 Special Pages
+
+- **`/`** - Main portfolio page
+- **`/gists`** - GitHub gists list (Linktree-style)
+- **`/gist1`, `/gist2`, etc.** - Direct links that redirect to GitHub gists
+
+See [GISTS_FEATURE.md](./GISTS_FEATURE.md) for detailed documentation on the gists feature.
 
 ## 📱 Responsive Design
 
