@@ -30,4 +30,14 @@ export const gists: Gist[] = [
     tags: ["Jetpack Compose", "Android", "Kotlin"],
     createdAt: "2025-11-11",
   },
+  {
+    id: "tiktok-clone-pip-mode",
+    title: "TikTok Clone with PiP Mode Jetpack Compose",
+    description: "A simple implementation of Picture-in-Picture (PiP) mode in a TikTok clone app using Jetpack Compose.",
+    gistId: "ee44dd67724381574055e864d5923046",
+    url: "https://gist.github.com/notsatria/85f675892da4545b5e00fd39a9186eba",
+    embedUrl: "https://gist.github.com/notsatria/85f675892da4545b5e00fd39a9186eba.js",
+    tags: ["Jetpack Compose", "Android", "Kotlin"],
+    createdAt: "2025-11-25",
+  },
 ];
