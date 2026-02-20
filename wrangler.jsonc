@@ -10,7 +10,7 @@
   },
   "routes": [
     {
-      "pattern": "notsatria.page/*",
+      "pattern": "notsatria.page",
       "custom_domain": true,
     },
   ],
